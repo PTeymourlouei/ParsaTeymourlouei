@@ -1,0 +1,160 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #fdfdf9; /* off-white (bone) */
+    color: #111;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: #111;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .nav-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  .nav-container a {
+    color: #fdfdf9;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  .nav-container a:hover {
+    color: #e11d48; /* red accent */
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #111;
+    color: #fdfdf9;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    color: #e11d48;
+  }
+  .hero .subtitle {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  .hero .contact {
+    font-size: 1rem;
+    margin-top: 5px;
+    opacity: 0.9;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  h2 {
+    font-size: 2rem;
+    color: #e11d48;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.5rem;
+    color: #e11d48;
+    margin-bottom: 15px;
+  }
+  
+  /* Card Grid */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 1.5rem;
+  }
+  .card {
+    background: white;
+    border: 4px solid #000;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 22px rgba(0,0,0,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    color: #111;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+  .card img {
+    display: block;
+    max-width: 100%;
+    height: auto;          /* let the image keep its natural proportions */
+    object-fit: contain;   /* ensures full image is visible */
+    border-radius: 8px;
+    margin: 0 auto 15px;
+  }
+  .card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #111;
+  }
+  .card p {
+    font-size: 0.95rem;
+  }
+  
+  /* Resume Card */
+  .resume-card {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #111;
+  }
+  .resume-card img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+    transition: transform 0.2s;
+  }
+  .resume-card img:hover {
+    transform: scale(1.02);
+  }
+  .resume-card p {
+    font-weight: 600;
+    color: #e11d48;
+  }
+  
+  /* Contact */
+  .contact {
+    text-align: center;
+  }
+  .contact a {
+    color: #e11d48;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #fdfdf9;
+    margin-top: 60px;
+  }
+  

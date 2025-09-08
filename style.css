@@ -44,10 +44,10 @@
     padding: 100px 20px;
   }
   .hero img {
-    width: 180px;         /* adjust as needed */
+    width: 250px;         /* adjust as needed */
     height: auto;         /* keeps proportions */
-    border-radius: 50%;   /* makes it circular, optional */
-    margin-bottom: 20px;  /* spacing below the image */
+    border-radius: 0%;   /* makes it circular, optional */
+    margin-bottom: 4px;  /* spacing below the image */
   }
   .hero h1 {
     font-size: 3rem;

@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Parsa Teymourlouei | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar">
     <div class="nav-container">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#resume">Resume</a>
-      <a href="#contact">Contact</a>
+      <a href="#hero" class="nav-logo">Parsa Teymourlouei</a>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <header class="hero">
+  <header class="hero" id="hero">
     <div class="container">
-      <img src="headshot.png" alt="Headshot Screenshot">
+      <img src="headshot.png" alt="Headshot Screenshot" />
       <h1>Parsa Teymourlouei</h1>
       <p class="subtitle">Computer Science | University of Maryland, College Park</p>
       <p class="contact">parsa.teymourlouei1@gmail.com | (443) 221-8651</p>
@@ -35,103 +43,116 @@
     <h2>About Parsa</h2>
     <h3>Get To Know Me</h3>
     <ul>
-    <p>
-        <li>I’m a junior at the University of Maryland studying Computer Science,
-             passionate about using technology to solve real problems and make 
-             systems more efficient. For me, software development isn’t just about
-              writing code, it involves tackling difficult challenges, thinking 
-              creatively, and building tools that genuinely make a difference. 
-              I’m also eager to learn, whether it’s through a new framework,
-               a challenging project, or even topics outside of technology. That 
-               curiosity helps me connect with people from all backgrounds and have
-                meaningful conversations where we both walk away with something new.<br>
+      <p>
+        <li>
+          I’m a junior at the University of Maryland studying Computer Science, passionate about using technology
+          to solve real problems and make systems more efficient. For me, software development isn’t just about
+          writing code—it involves tackling difficult challenges, thinking creatively, and building tools that
+          genuinely make a difference. I’m also eager to learn, whether it’s through a new framework, a challenging
+          project, or even topics outside of technology. That curiosity helps me connect with people from all
+          backgrounds and have meaningful conversations where we both walk away with something new.<br /><br />
+          Some of my most rewarding experiences have come from building projects, which taught me not only technical
+          skills but also the value of persistence, adaptability, and collaboration. Beyond work, I enjoy learning
+          about new ideas, working out, and spending time with family, which help to keep me grounded and balanced
+          while pushing me to achieve my goals.
+        </li>
+      </p>
+    </ul>
 
-            <br>Some of my most rewarding experiences have come from building projects,
-             which taught me not only technical skills but also the value of 
-             persistence, adaptability, and collaboration. Beyond work, I enjoy 
-             learning about new ideas, working out, and spending time with family,
-              which help to keep me grounded and balanced while pushing me to 
-              achieve my goals.</li>
-    </p>
-    </ul>
-    <h3><br>University of Maryland, College Park</h3>
+    <h3><br />University of Maryland, College Park</h3>
     <ul>
-    <p>
-        <li><b>Major:</b> Computer Science<br></li>
-        <li><b>Minor:</b> Technology Entrepreneurship & Corporate Innovation<br></li>
-        <li><b>Activities:</b> Campus Coders Crew, Real Estate Club</li>
-    </p>
+      <p>
+        <li><b>Major:</b> Computer Science<br /></li>
+        <li><b>Minor:</b> Technology Entrepreneurship & Corporate Innovation<br /></li>
+        <li><b>Activities:</b> Campus Coders Crew, Claude Builder Club, Google Developer Student Club, Real Estate Club</li>
+      </p>
     </ul>
-    <h3><br>Skills</h3>
+
+    <h3><br />Skills</h3>
     <ul>
-    <p>
-        <li><b>Programming Languages & Frameworks:</b> Python, Java, C, JavaScript, HTML, CSS, JSON, React, Vue.js, Node.js<br> </li>
-        <li><b>Tools & Platforms:</b> Git/GitHub, AWS, Figma, Unix/Linux <br></li>
-    </p>
+      <p>
+        <li>
+          <b>Programming Languages & Frameworks:</b> Python, Java, C, JavaScript, HTML, CSS, JSON, React, Vue.js,
+          Node.js<br />
+        </li>
+        <li><b>Tools & Platforms:</b> Git/GitHub, AWS, Figma, Unix/Linux <br /></li>
+      </p>
     </ul>
   </section>
 
   <!-- Projects Section -->
-  <hr style="width:75%;text-align:center;margin-left:12.5%">
+  <hr class="divider" />
   <section id="projects" class="projects container">
     <h2>Projects</h2>
     <div class="card-grid">
       <a href="https://github.com/PTeymourlouei/Investor-Matching-App" target="_blank" class="card">
-        <img src="investormatcher.png" alt="Investor Matching Tool Screenshot">
+        <img src="investormatcher.png" alt="Investor Matching Tool Screenshot" />
         <h3>Investor Matching Tool</h3>
-        <p><strong style="color: red;">August 2025<br></strong>An AI-powered platform that connects startups
-             with investors based on stage, industry, and geographic fit. Built to streamline the investor 
-             discovery process, it uses natural language processing and machine learning to match startup 
-             needs with relevant investor profiles. This saves entrepreneurs valuable time and refining 
-             outreach strategies with data-driven confidence.</p>
+        <p>
+          <strong>August 2025<br /></strong>An AI-powered platform that connects startups
+          with investors based on stage, industry, and geographic fit. Built to streamline the investor 
+          discovery process, it uses natural language processing and machine learning to match startup 
+          needs with relevant investor profiles. This saves entrepreneurs valuable time and refining 
+          outreach strategies with data-driven confidence.
+        </p>
       </a>
+
       <a href="https://github.com/PTeymourlouei/SmartToDoListGUI" target="_blank" class="card">
-        <img src="smarttask.png" alt="SmartTask App Screenshot">
+        <img src="smarttask.png" alt="SmartTask App Screenshot" />
         <h3>SmartTask App</h3>
-        <p><strong style="color: red;">June 2025<br></strong>A productivity tool I developed
-             to simplify task management, seamlessly integrating with the Canvas LMS to sync
-              assignments and due dates. SmartTask offers intuitive scheduling, task creation,
-               and editing capabilities, making it easier to stay organized and reduce oversight.
-                Built with a clean, color-coded interface and optimized for real-world student productivity 
-                workflows.</p>
+        <p>
+          <strong>June 2025<br /></strong>A productivity tool I developed
+          to simplify task management, seamlessly integrating with the Canvas LMS to sync
+           assignments and due dates. SmartTask offers intuitive scheduling, task creation,
+            and editing capabilities, making it easier to stay organized and reduce oversight.
+             Built with a clean, color-coded interface and optimized for real-world student productivity 
+             workflows.
+        </p>
       </a>
     </div>
   </section>
 
-  <!-- Experience/Certifications Section -->
-  <hr style="width:75%;text-align:center;margin-left:12.5%">
+  <!-- Experience Section -->
+  <hr class="divider" />
   <section id="experience" class="experience container">
     <h2>Experience & Certifications</h2>
     <div class="card-grid">
-        <a href="https://www.linkedin.com/company/campus-coders-crew/" target="_blank" class="card">
-            <img src="ccc.png" alt="CCC Screenshot">
-            <h3>Campus Coders Crew - Developer</h3>
-            <p><strong style="color: red;">May 2025 - Present<br></strong>As a developer in the Campus Coders Crew,
-                 I worked collaboratively on student-driven tech projects—contributing to design, code reviews,
-                  debugging and testing. This role sharpened my teamwork and technical communication skills while
-                   fostering hands-on experience with software development best practices.</p>
+      <a href="https://www.linkedin.com/company/campus-coders-crew/" target="_blank" class="card">
+        <img src="ccc.png" alt="CCC Screenshot" />
+        <h3>Campus Coders Crew - Developer</h3>
+        <p>
+          <strong>May 2025 - Present<br /></strong>As a developer in the Campus Coders Crew,
+          I worked collaboratively on student-driven tech projects, contributing to design, code reviews,
+           debugging and testing. This role sharpened my teamwork and technical communication skills while
+            fostering hands-on experience with software development best practices.
+        </p>
       </a>
+
       <a href="https://www.credly.com/badges/d59b17e1-c798-4dd8-b7d5-2472d4c5be98/linked_in_profile" target="_blank" class="card">
-        <img src="aws-cert.png" alt="AWS Certification Badge">
+        <img src="aws-cert.png" alt="AWS Certification Badge" />
         <h3>AWS Certified Cloud Practitioner</h3>
-        <p><strong style="color: red;">July 2025<br></strong>A foundational certification that demonstrates 
-            my competency in AWS cloud services, architecture, and security. It validates my ability to design,
-             deploy, and manage applications on AWS. This achievement underscores a practical understanding of
-              cloud-based infrastructures and readiness to work on scalable, modern systems.</p>
+        <p>
+          <strong>July 2025<br /></strong>A foundational certification that demonstrates 
+          my competency in AWS cloud services, architecture, and security. It validates my ability to design,
+           deploy, and manage applications on AWS. This achievement underscores a practical understanding of
+            cloud-based infrastructures and readiness to work on scalable, modern systems.
+        </p>
       </a>
+
       <a href="https://www.rhsmith.umd.edu/programs/executive-education/learning-opportunities-individuals/free-online-certificate-artificial-intelligence-and-career-empowerment" target="_blank" class="card">
         <img src="ai-class.png" alt="AI Empowerment Screenshot">
         <h3>UMD AI and Career Empowerment</h3>
-        <p><strong style="color: red;">June 2025<br></strong>I earned a certificate in Artificial Intelligence
+        <p><strong>June 2025<br></strong>I earned a certificate in Artificial Intelligence
              and Career Empowerment from UMD’s Robert H. Smith School of Business. The course blends AI 
              fundamentals (responsible AI, supply chain transformation, building modern AI systems, and more) 
              with professional skill-building modules like career transitions, negotiating from a place of 
              weakness, and entrepreneurship</p>
       </a>
+
       <a href="https://umd-smithlearn.catalog.instructure.com/courses/introduction-to-data-science-landscape" target="_blank" class="card">
         <img src="data-science.png" alt="Intro Data Science Screenshot">
         <h3>UMD Introduction to the Data Science Landscape</h3>
-        <p><strong style="color: red;">August 2025<br></strong>I completed an introductory course that 
+        <p><strong>August 2025<br></strong>I completed an introductory course that 
             provides a high-level overview of data science and business analytics applications. They covered
              exploratory data analysis, visualization, hypothesis testing, and the use of modern analytics 
              tools like Tableau. It helped me understand how to extract actionable insights from data and 
@@ -141,29 +162,42 @@
   </section>
 
   <!-- Resume Section -->
-  <hr style="width:75%;text-align:center;margin-left:12.5%">
+  <hr class="divider" />
   <section id="resume" class="resume container">
     <h2>Resume</h2>
-    <a href="https://drive.google.com/file/d/15xhuYxupvljSKMIi9tpuAMCRKBUJxp3H/view?usp=sharing" target="_blank" class="resume-card">
-      <img src="resume.png" alt="Resume Preview">
-      <p>Click to view my resume (PDF)</p>
+    <a href="https://drive.google.com/file/d/1toxZ65bQnEQ_746U_EbfwFDnGtj3JrYg/view?usp=sharing" target="_blank" class="resume-card">
+      <img src="resume.png" alt="Resume Preview" />
+      <p><strong>Click to view my resume (PDF)</p>
     </a>
   </section>
 
   <!-- Contact Section -->
-  <hr style="width:75%;text-align:center;margin-left:12.5%">
+  <hr class="divider" />
   <section id="contact" class="contact container">
     <h2>Contact Me</h2>
     <p>Feel free to reach out for opportunities or collaborations.</p>
     <p>parsa.teymourlouei1@gmail.com</p>
     <p>(443) 221-8651</p>
-    <p><a href="https://www.linkedin.com/in/parsa-teymourlouei/" target="_blank">LinkedIn</a> | 
-    <a href="https://github.com/PTeymourlouei" target="_blank">GitHub</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/parsa-teymourlouei/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/PTeymourlouei" target="_blank">GitHub</a>
+    </p>
   </section>
 
   <!-- Footer -->
   <footer>
     <p>© 2025 Parsa Teymourlouei</p>
   </footer>
+
+  <!-- JS for hamburger -->
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      hamburger.classList.toggle("toggle");
+    });
+  </script>
 </body>
 </html>

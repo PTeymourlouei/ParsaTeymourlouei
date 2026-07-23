@@ -3,201 +3,445 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Portfolio of Parsa Teymourlouei, a Senior Computer Science student at the University of Maryland with experience in cloud infrastructure, software engineering, and AWS."
+  />
+
   <title>Parsa Teymourlouei | Portfolio</title>
+
   <link rel="stylesheet" href="style.css" />
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
 </head>
+
 <body>
   <!-- Navbar -->
   <nav class="navbar">
     <div class="nav-container">
       <a href="#hero" class="nav-logo">Parsa Teymourlouei</a>
+
       <div class="nav-links" id="nav-links">
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
         <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
       </div>
-      <div class="hamburger" id="hamburger">
+
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </button>
     </div>
   </nav>
 
   <!-- Hero Section -->
   <header class="hero" id="hero">
     <div class="container">
-      <img src="headshot.png" alt="Headshot Screenshot" />
+      <img src="headshot.png" alt="Headshot of Parsa Teymourlouei" />
+
       <h1>Parsa Teymourlouei</h1>
-      <p class="subtitle">Computer Science | University of Maryland, College Park</p>
-      <p class="contact">parsa.teymourlouei1@gmail.com | (443) 221-8651</p>
+
+      <p class="subtitle">
+        Senior Computer Science Student | University of Maryland, College Park
+      </p>
+
+      <p class="contact">
+        parsa.teymourlouei1@gmail.com | (443) 221-8651
+      </p>
     </div>
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about container">
-    <h2>About Parsa</h2>
-    <h3>Get To Know Me</h3>
-    <ul>
+  <section id="about" class="about container reveal">
+    <h2>About Me</h2>
+
+    <div class="about-content">
+      <h3>Get to Know Me</h3>
+
       <p>
-        <li>
-          I’m a junior at the University of Maryland studying Computer Science, passionate about using technology
-          to solve real problems and make systems more efficient. For me, software development isn’t just about
-          writing code—it involves tackling difficult challenges, thinking creatively, and building tools that
-          genuinely make a difference. I’m also eager to learn, whether it’s through a new framework, a challenging
-          project, or even topics outside of technology. That curiosity helps me connect with people from all
-          backgrounds and have meaningful conversations where we both walk away with something new.<br /><br />
-          Some of my most rewarding experiences have come from building projects, which taught me not only technical
-          skills but also the value of persistence, adaptability, and collaboration. Beyond work, I enjoy learning
-          about new ideas, working out, and spending time with family, which help to keep me grounded and balanced
-          while pushing me to achieve my goals.
-        </li>
+        I'm a senior Computer Science student at the University of Maryland with a passion
+        for building scalable software and cloud-based systems. Whether I'm developing
+        distributed backend services, designing cloud infrastructure on AWS, or creating
+        personal projects from scratch, I enjoy solving complex technical problems and
+        continuously learning new technologies.
       </p>
-    </ul>
-
-    <h3><br />University of Maryland, College Park</h3>
-    <ul>
+      
       <p>
-        <li><b>Major:</b> Computer Science<br /></li>
-        <li><b>Minor:</b> Technology Entrepreneurship & Corporate Innovation<br /></li>
-        <li><b>Activities:</b> Campus Coders Crew, Claude Builder Club, Google Developer Student Club, Real Estate Club</li>
+        Through my internship at Fannie Mae and personal software projects, I've gained
+        experience building production cloud applications, collaborating with engineering
+        teams, and designing scalable backend systems. These experiences have strengthened
+        my technical abilities along with my communication, problem-solving, adaptability,
+        and teamwork skills.
       </p>
-    </ul>
 
-    <h3><br />Skills</h3>
-    <ul>
       <p>
-        <li>
-          <b>Programming Languages & Frameworks:</b> Python, Java, C, JavaScript, HTML, CSS, JSON, React, Vue.js,
-          Node.js<br />
-        </li>
-        <li><b>Tools & Platforms:</b> Git/GitHub, AWS, Figma, Unix/Linux <br /></li>
+        Beyond technology, I enjoy learning about new ideas, working out, golfing, and
+        spending time with family. These interests help keep me balanced while
+        motivating me to continue growing personally and professionally.
       </p>
-    </ul>
-  </section>
 
-  <!-- Projects Section -->
-  <hr class="divider" />
-  <section id="projects" class="projects container">
-    <h2>Projects</h2>
-    <div class="card-grid">
-      <a href="https://github.com/PTeymourlouei/Investor-Matching-App" target="_blank" class="card">
-        <img src="investormatcher.png" alt="Investor Matching Tool Screenshot" />
-        <h3>Investor Matching Tool</h3>
-        <p>
-          <strong>August 2025<br /></strong>An AI-powered platform that connects startups
-          with investors based on stage, industry, and geographic fit. Built to streamline the investor 
-          discovery process, it uses natural language processing and machine learning to match startup 
-          needs with relevant investor profiles. This saves entrepreneurs valuable time and refining 
-          outreach strategies with data-driven confidence.
-        </p>
-      </a>
+      <div class="about-details">
+        <div class="detail-card">
+          <h3>Education</h3>
+        
+          <p><strong>University of Maryland, College Park</strong></p>
+          <p><strong>Major:</strong> Computer Science</p>
+        
+          <p>
+            <strong>Minor:</strong>
+            Technology Entrepreneurship &amp; Corporate Innovation
+          </p>
+        
+          <p><strong>Expected Graduation:</strong> May 2027</p>
+        
+          <p>
+            <strong>Activities:</strong>
+            Campus Coders Crew, Google Developer Student Club, Claude Builder Club,
+            and Real Estate Club
+          </p>
+        </div>
 
-      <a href="https://github.com/PTeymourlouei/SmartToDoListGUI" target="_blank" class="card">
-        <img src="smarttask.png" alt="SmartTask App Screenshot" />
-        <h3>SmartTask App</h3>
-        <p>
-          <strong>June 2025<br /></strong>A productivity tool I developed
-          to simplify task management, seamlessly integrating with the Canvas LMS to sync
-           assignments and due dates. SmartTask offers intuitive scheduling, task creation,
-            and editing capabilities, making it easier to stay organized and reduce oversight.
-             Built with a clean, color-coded interface and optimized for real-world student productivity 
-             workflows.
-        </p>
-      </a>
+        <div class="detail-card">
+          <h3>Technical Skills</h3>
+        
+          <p>
+            <strong>Languages:</strong>
+            Python, Java, C, JavaScript, SQL, HTML, and CSS
+          </p>
+        
+          <p>
+            <strong>Frameworks &amp; Libraries:</strong>
+            React, Node.js, Vue.js, Pandas, Tkinter, and boto3
+          </p>
+        
+          <p>
+            <strong>Cloud &amp; Infrastructure:</strong>
+            AWS ECS, Lambda, Athena, CloudFormation, EventBridge, DynamoDB,
+            S3, SQS, IAM, CloudWatch, and AWS Config
+          </p>
+        
+          <p>
+            <strong>Developer Tools:</strong>
+            Git, GitHub, Linux, Unix, Jira, and Figma
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Experience Section -->
   <hr class="divider" />
-  <section id="experience" class="experience container">
-    <h2>Experience & Certifications</h2>
+
+  <section id="experience" class="experience container reveal">
+    <h2>Experience</h2>
+
     <div class="card-grid">
-      <a href="https://www.linkedin.com/company/campus-coders-crew/" target="_blank" class="card">
-        <img src="ccc.png" alt="CCC Screenshot" />
-        <h3>Campus Coders Crew - Developer</h3>
+      <a
+        href="https://www.linkedin.com/company/fannie-mae/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="card experience-card"
+      >
+        <img src="fannie-mae.png" alt="Fannie Mae logo" />
+
+        <h3>Fannie Mae — Cloud Infrastructure Intern</h3>
+
+        <p class="card-date">June 2026 – August 2026</p>
+
         <p>
-          <strong>May 2025 - Present<br /></strong>As a developer in the Campus Coders Crew,
-          I worked collaboratively on student-driven tech projects, contributing to design, code reviews,
-           debugging and testing. This role sharpened my teamwork and technical communication skills while
-            fostering hands-on experience with software development best practices.
+          As part of Fannie Mae’s Cloud Infrastructure division and Software Defined
+          Networking team, I contributed to the Quad Zero Security Group Rule Remediation
+          platform, which analyzes hundreds of AWS VPC Flow Log records to support cloud
+          security remediation.
+        </p>
+        
+        <p>
+          Developed Python components for an autoscaling ECS-based processing pipeline and
+          deployed AWS infrastructure through automated CI/CD pipelines using services
+          including Lambda, Athena, DynamoDB, AWS Config, EventBridge, SQS, and CloudWatch.
+        </p>
+        
+        <p>
+          Designed reusable processing components, centralized CloudWatch metrics, and a
+          two-level caching architecture that reduced repeated AWS Config lookups and
+          improved the platform’s scalability, maintainability, and observability.
         </p>
       </a>
 
-      <a href="https://www.credly.com/badges/d59b17e1-c798-4dd8-b7d5-2472d4c5be98/linked_in_profile" target="_blank" class="card">
-        <img src="aws-cert.png" alt="AWS Certification Badge" />
+      <a
+        href="https://www.linkedin.com/company/campus-coders-crew/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="card experience-card"
+      >
+        <img src="ccc.png" alt="Campus Coders Crew logo" />
+
+        <h3>Campus Coders Crew — Developer</h3>
+
+        <p class="card-date">May 2025 – Present</p>
+
+        <p>
+          As a developer with Campus Coders Crew, I collaborate with a team of
+          student developers to design and build full-stack applications for
+          organizations throughout the University of Maryland community.
+        </p>
+
+        <p>
+          I contribute to application design, implementation, debugging, testing,
+          and code reviews while gaining hands-on experience with collaborative
+          software development practices.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <hr class="divider" />
+
+  <section id="projects" class="projects container reveal">
+    <h2>Projects</h2>
+
+    <div class="card-grid">
+      <a
+        href="https://github.com/PTeymourlouei/Investor-Matching-App"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="card"
+      >
+        <img
+          src="investormatcher.png"
+          alt="Investor Matching Tool application"
+        />
+
+        <h3>Investor Matching Tool</h3>
+
+        <p class="card-date">August 2025</p>
+
+        <p>
+          An AI-powered desktop application that connects startups with relevant
+          investors based on industry, stage, geography, and investment fit.
+        </p>
+
+        <p>
+          Built with Python, Pandas, Tkinter, and Cohere’s NLP reranking API, the
+          application processes investor data and generates ranked recommendations
+          to help founders improve their outreach strategies.
+        </p>
+      </a>
+
+      <a
+        href="https://github.com/PTeymourlouei/SmartToDoListGUI"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="card"
+      >
+        <img src="smarttask.png" alt="SmartTask application" />
+
+        <h3>SmartTask App</h3>
+
+        <p class="card-date">June 2025</p>
+
+        <p>
+          A Python productivity application designed to simplify student task
+          management through automatic organization and Canvas LMS integration.
+        </p>
+
+        <p>
+          SmartTask synchronizes assignments and deadlines while offering task
+          creation, one-click editing, priority organization, and a clean,
+          color-coded interface.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <hr class="divider" />
+
+  <section id="certifications" class="certifications container reveal">
+    <h2>Certifications</h2>
+
+    <div class="card-grid">
+      <a
+        href="https://www.credly.com/badges/d59b17e1-c798-4dd8-b7d5-2472d4c5be98/linked_in_profile"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="card"
+      >
+        <img src="aws-cert.png" alt="AWS Certified Cloud Practitioner badge" />
+
         <h3>AWS Certified Cloud Practitioner</h3>
+
+        <p class="card-date">July 2025</p>
+
         <p>
-          <strong>July 2025<br /></strong>A foundational certification that demonstrates 
-          my competency in AWS cloud services, architecture, and security. It validates my ability to design,
-           deploy, and manage applications on AWS. This achievement underscores a practical understanding of
-            cloud-based infrastructures and readiness to work on scalable, modern systems.
+          A foundational AWS certification demonstrating knowledge of cloud
+          concepts, architecture, security, billing, and core AWS services.
         </p>
       </a>
 
-      <a href="https://www.rhsmith.umd.edu/programs/executive-education/learning-opportunities-individuals/free-online-certificate-artificial-intelligence-and-career-empowerment" target="_blank" class="card">
-        <img src="ai-class.png" alt="AI Empowerment Screenshot">
+      <a
+        href="https://www.rhsmith.umd.edu/programs/executive-education/learning-opportunities-individuals/free-online-certificate-artificial-intelligence-and-career-empowerment"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="card"
+      >
+        <img
+          src="ai-class.png"
+          alt="UMD AI and Career Empowerment certificate"
+        />
+
         <h3>UMD AI and Career Empowerment</h3>
-        <p><strong>June 2025<br></strong>I earned a certificate in Artificial Intelligence
-             and Career Empowerment from UMD’s Robert H. Smith School of Business. The course blends AI 
-             fundamentals (responsible AI, supply chain transformation, building modern AI systems, and more) 
-             with professional skill-building modules like career transitions, negotiating from a place of 
-             weakness, and entrepreneurship</p>
+
+        <p class="card-date">June 2025</p>
+
+        <p>
+          A certificate from the Robert H. Smith School of Business covering
+          responsible AI, modern AI systems, business applications, career
+          development, negotiation, and entrepreneurship.
+        </p>
       </a>
 
-      <a href="https://umd-smithlearn.catalog.instructure.com/courses/introduction-to-data-science-landscape" target="_blank" class="card">
-        <img src="data-science.png" alt="Intro Data Science Screenshot">
+      <a
+        href="https://umd-smithlearn.catalog.instructure.com/courses/introduction-to-data-science-landscape"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="card"
+      >
+        <img
+          src="data-science.png"
+          alt="UMD Introduction to the Data Science Landscape certificate"
+        />
+
         <h3>UMD Introduction to the Data Science Landscape</h3>
-        <p><strong>August 2025<br></strong>I completed an introductory course that 
-            provides a high-level overview of data science and business analytics applications. They covered
-             exploratory data analysis, visualization, hypothesis testing, and the use of modern analytics 
-             tools like Tableau. It helped me understand how to extract actionable insights from data and 
-             paved the way for deeper data-driven experimentation.</p>
+
+        <p class="card-date">August 2025</p>
+
+        <p>
+          An introductory course covering exploratory data analysis,
+          visualization, hypothesis testing, business analytics, and tools such as
+          Tableau.
+        </p>
       </a>
     </div>
   </section>
 
   <!-- Resume Section -->
   <hr class="divider" />
-  <section id="resume" class="resume container">
+
+  <section id="resume" class="resume container reveal">
     <h2>Resume</h2>
-    <a href="https://drive.google.com/file/d/1toxZ65bQnEQ_746U_EbfwFDnGtj3JrYg/view?usp=sharing" target="_blank" class="resume-card">
-      <img src="resume.png" alt="Resume Preview" />
-      <p><strong>Click to view my resume (PDF)</p>
+
+    <a
+      href="https://drive.google.com/file/d/1h3s_sqpEtEk9OUsRtmqY7NzshFgFGRij/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="resume-card"
+    >
+      <img src="resume.png" alt="Preview of Parsa Teymourlouei's resume" />
+      <p><strong>Click to view my resume</strong></p>
     </a>
   </section>
 
   <!-- Contact Section -->
   <hr class="divider" />
-  <section id="contact" class="contact container">
+
+  <section id="contact" class="contact container reveal">
     <h2>Contact Me</h2>
-    <p>Feel free to reach out for opportunities or collaborations.</p>
-    <p>parsa.teymourlouei1@gmail.com</p>
-    <p>(443) 221-8651</p>
+
+    <p>Feel free to reach out regarding opportunities or collaborations.</p>
     <p>
-      <a href="https://www.linkedin.com/in/parsa-teymourlouei/" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/PTeymourlouei" target="_blank">GitHub</a>
+      <a href="mailto:parsa.teymourlouei1@gmail.com">
+        parsa.teymourlouei1@gmail.com
+      </a>
+    </p>
+    <p>
+      <a href="tel:+14432218651">(443) 221-8651</a>
+    </p>
+
+    <p class="contact-links">
+      <a
+        href="https://www.linkedin.com/in/parsa-teymourlouei/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
+
+      <span>|</span>
+
+      <a
+        href="https://github.com/PTeymourlouei"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
     </p>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Parsa Teymourlouei</p>
+    <p>© <span id="current-year"></span> Parsa Teymourlouei</p>
   </footer>
 
-  <!-- JS for hamburger -->
   <script>
     const hamburger = document.getElementById("hamburger");
     const navLinks = document.getElementById("nav-links");
+    const navigationLinks = document.querySelectorAll(".nav-links a");
 
     hamburger.addEventListener("click", () => {
-      navLinks.classList.toggle("active");
+      const isOpen = navLinks.classList.toggle("active");
+
       hamburger.classList.toggle("toggle");
+      hamburger.setAttribute("aria-expanded", isOpen);
     });
+
+    navigationLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+        hamburger.classList.remove("toggle");
+        hamburger.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    const revealElements = document.querySelectorAll(".reveal");
+
+    const revealObserver = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) {
+            return;
+          }
+
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        });
+      },
+      {
+        threshold: 0.12
+      }
+    );
+
+    revealElements.forEach((element) => {
+      revealObserver.observe(element);
+    });
+
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
   </script>
 </body>
 </html>
